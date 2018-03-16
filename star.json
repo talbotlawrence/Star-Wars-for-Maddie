@@ -1,0 +1,40 @@
+{
+	"players": [
+		{
+			"name": "Luke Skywalker",
+			"force": "Yes",         
+			"behavior": "Jedi",
+			"weapon": "Light Saber"
+		},
+		{
+			"name": "Han Solo",
+			"force": "No",
+			"behavior": "Good",
+			"weapon": "Laser Gun" 
+		},
+		{
+			"name": "Princess Leia",     
+			"force": "Sometimes",
+			"behavior": "Good",
+			"weapon": "Laser Gun" 
+		},
+		{
+			"name": "Darth Vader",     
+			"force": "Yes",
+			"behavior": "Sith",
+			"weapon": "Light Saber" 
+		},
+		{
+			"name": "Darth Sideous",     
+			"force": "Yes",
+			"behavior": "Sith",
+			"weapon": "Light Saber" 
+		},
+		{
+			"name": "General Grievous",     
+			"force": "Sometimes",
+			"behavior": "Bad",
+			"weapon": "Light Saber" 
+		}
+	]
+}
