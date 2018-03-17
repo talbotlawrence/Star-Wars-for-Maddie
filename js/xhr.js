@@ -51,13 +51,3 @@ var TheData = (function() {  //DO I NEED THE IIFE???  THIS LINE AND THE LAST!
 	xhr.open('GET', '../star.json', true);
 	xhr.send(null);  
 })();
-
-// textContent += '<div class="event">';
-// textContent += '<p><b>' + a[i].name + '</b></p>';
-// textContent += '<p>Can the character use the force?  ';
-// textContent += a[i].force + '</p>';
-// textContent += '<p>Good or bad?  ';
-// textContent += a[i].behavior + '</p>';
-// textContent += '<p>What weapon does this character use?  ';
-// textContent += a[i].weapon + '</p><br>';
-// textContent += '</div>';
