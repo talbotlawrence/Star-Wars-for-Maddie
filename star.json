@@ -32,9 +32,15 @@
 		},
 		{
 			"name": "General Grievous",     
-			"force": "Sometimes",
+			"force": "Never",
 			"behavior": "Bad",
 			"weapon": "Light Saber" 
+		},
+		{
+			"name": "Princess Madelyn",     
+			"force": "Yes",
+			"behavior": "Jedi",
+			"weapon": "Light Saber and Magic Wand" 
 		}
 	]
 }
