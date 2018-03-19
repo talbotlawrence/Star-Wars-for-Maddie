@@ -18,14 +18,15 @@ var TheData = (function() {  //DO I NEED THE IIFE???  THIS LINE AND THE LAST!
 			var findDaughter = /madelyn/i;
 			var a = responseObject.players;
 
+			//2 if statements--one embedded?
 			for (var i = 0; i < a.length; i++){
 				if (a[i].name.match(findDaughter)) {
 					daughterObject = a[i];
-					console.log("daughterObject", daughterObject);
+					// console.log("daughterObject", daughterObject);
 					a.splice(i, 1);
-					console.log("a is now =====", a);
+					// console.log("a is now =====", a);
 				} else {
-					console.log("Can't find it!!");
+					// console.log("Can't find it!!");
 				}
 			};
 			a.unshift(daughterObject);
@@ -42,9 +43,8 @@ var TheData = (function() {  //DO I NEED THE IIFE???  THIS LINE AND THE LAST!
 				textContent += a[i].weapon + '</p><br>';
 				textContent += '</div>';
 			};
-
+			// console.log("textContent ======", textContent);
 			document.getElementById("list").innerHTML = textContent
-
 		}
 	};
 
