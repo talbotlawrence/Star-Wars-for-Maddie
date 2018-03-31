@@ -10,6 +10,24 @@
 	<body>
 		<h1>Star Wars for Madelyn</h1><hr><br><br>
 
+			<form id="login" action="/login/" method="post">
+				<fieldset>
+					<legend>Login</legend>      
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username" />
+					<label for="pwd">Password:</label>
+					<input type="password" id="pwd" name="pwd" />
+					<input type="submit" id="submit" value="Login" />
+				</fieldset>
+			</form>
+
+			<br><br>
+
+			<div id="showVideo">
+			</div>
+
+			<br><br><hr><br><br>
+
 			<div id="list">
 			</div>
 
@@ -22,9 +40,6 @@
 			<div id="images">
 			</div>
 
-			<br><br><hr><br><br>
-
-		
 
 
 		<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
@@ -32,6 +47,7 @@
 		<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
 		<script type="text/javascript" src="/js/xhr.js"></script>
 		<script type="text/javascript" src="/js/main.js"></script>
+		<script type="text/javascript" src="/js/login.js"></script>
 
 		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 	</body>
